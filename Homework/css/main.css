@@ -1,0 +1,74 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.menu {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.menu a {
+    text-decoration: none;
+    color: #030305;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .nav .menu li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+  }
+  .nav .menu {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .buttons-lang {
+    float: right;
+    padding-right: 5px;
+  }
+
+  .header {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+  } 
+  /**  placeholder
+  .skills {
+    width: 80%;
+    margin:auto;
+    padding:20px;
+  }
+  .skills .skills_img {
+    display: inline;
+  }
+  **/
+ .about-me {
+    background-color: rgb(230, 218, 218);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+ }
+ /** palceholder
+ .portfolio {
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    background-color:  rgb(230, 218, 218);
+ }
+ .portfolio .placeholder {
+    display: block;
+    text-align: center;
+ }
+.placeholder {
+    text-align: justify;
+}
