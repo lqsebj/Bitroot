@@ -1,0 +1,35 @@
+.box {
+    background-color: grey;
+    width: 920px;
+    padding-top: 10px;
+}
+.container  {
+    width: 882px;
+    height: 333px;
+    margin: 15px;
+    display: flex;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.container img {
+    width: 882px;
+}
+.little {
+    background-color: rgb(190, 190, 190);
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+}
+.btn {
+    margin: auto;
+}
+.check  {
+    text-align: justify;
+}

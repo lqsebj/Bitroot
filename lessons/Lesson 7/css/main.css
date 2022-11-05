@@ -1,0 +1,32 @@
+
+.container-large {
+    max-width: 380px;
+    background:#C4C4C4;
+    padding: 10px;
+    max-width: 380px;
+    margin: 10px;
+}
+
+.container {
+    height: 64px;  
+    background: #DC3F3F;
+    margin: 30px auto;
+    display: flex;
+}
+.box1 {
+width: 200px;
+background: #412A2A;
+margin: 0 30px;
+}
+
+.box1:nth-child(2n) {
+    border: green solid;
+}
+
+.wrapper {
+    display: flex;
+}
+.two > .container:nth-child(2n) {
+    display: grid ;
+    margin-top: 10px;
+}
