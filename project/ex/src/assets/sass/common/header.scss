@@ -1,22 +1,39 @@
+// & == .header
 .header {
     padding-top: 96px;
-    &__container{
+
+    &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    &__nav-row{
+
+    &__nav-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 50px;
+
+        @media (max-width: $tablet) {
+            display: none;
+        }
     }
+
     &__nav-label {
         display: none;
+
+        @media (max-width: $tablet) {
+            display: block;
+            width: 32px;
+            height: 32px;
+            background: red;
+        }
     }
+
     &__nav-input {
         display: none;
     }
+
     &__nav-link {
         font-weight: 400;
         font-size: 13px;
@@ -26,9 +43,11 @@
         color: $color-black;
         cursor: pointer;
     }
+
     &__nav-item {
-        border-bottom: 1px solid transparent;  
-        &--hover{
+        border-bottom: 1px solid transparent;
+
+        &:hover {
             border-bottom: 1px solid $color-black;
         }
 
