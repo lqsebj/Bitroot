@@ -1,0 +1,78 @@
+.contact {
+    padding-top: 135px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__block-l {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        width: 263px;
+        
+    }
+
+    &__text {
+        width: 543px;
+    }
+
+    &__info {
+        width: 288px;
+        padding-top:192px;
+    }
+
+    &__info-h3{
+        padding-bottom: 24px;
+    }
+
+    &__info-h4{
+        padding-bottom: 22px;
+    }
+
+    &__social {
+        padding-top: 69px;
+    }
+
+    &__form {
+        width: 542px;
+        padding-top: 128px;
+    }
+
+    &__txt-h5 {
+        padding-bottom: 15px;
+    }
+
+    &__input {
+        margin-bottom: 44px;
+        padding-bottom: 7px;
+    }
+
+    &__btn-box {
+        position: relative;
+        // width: 136px;
+        // height: 45px;
+        // background: #565656;
+    }
+
+    &__btn {
+        width: 136px;
+        height: 45px;
+        background: #565656;
+        padding-right: 25px;
+        margin-top: 20px;
+    }
+
+    &__arrow {
+        width: 19px;
+        position: absolute;
+        color: #FFFFFF;        
+        bottom: 9%;
+        left: 15%;
+
+    }
+}

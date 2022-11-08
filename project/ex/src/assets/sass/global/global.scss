@@ -12,3 +12,85 @@ body {
     max-width: 134px;
     height: 11px;
 }
+
+h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+h3 {
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #565656;
+}
+
+h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #565656;
+}
+
+h6 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.3%;
+    letter-spacing: 0.1em;
+    color: #565656;
+}
+
+.btn {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    outline: none;
+}
+
+input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #7B7B7B;
+}
