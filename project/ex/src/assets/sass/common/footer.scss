@@ -1,12 +1,104 @@
-footer {
-    padding-top: 128px;
-    background: #F4F4F4;
-    margin-top: 128px;
-    padding-bottom: 127px;
+// .footer {
+//     padding-top: 128px;
+//     background: #F4F4F4;
+//     margin-top: 128px;
+//     padding-bottom: 127px;
 
-    &__contaienr {
-        display: flex;
-        justify-content: space-between;
+//     @media (max-width: $mobile){
+//         padding-top: 64px;
+//     }
+
+    
+//     &__container {
+//         display: flex;
+//         justify-content: space-between;
+
+//         @media (max-width: $mobile) {
+//             flex-direction: column;
+//         }
+//     }
+
+//     &__title {
+//         padding-bottom: 32px;
+
+//         @media (max-width: $mobile) {
+//             font-size: 33px;
+//             line-height: 50px;
+//         }
+//     }
+
+//     &__social {
+//         padding-bottom: 25px;
+//     }
+
+//     &__social-links {
+//         font-family: 'Lato';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 166%;
+//         letter-spacing: 0.1em;
+//         color: #000000;
+//     }
+
+//     &__copy-box {
+//         display: flex;
+//         align-items: flex-end;
+//         width: 209px;
+//         margin-bottom: 25px;
+//     }
+    
+//     &__info {
+//         padding-bottom: 16px;
+//     }
+// }
+
+.footer {
+    background-color: $color-grey;
+    padding: 128px 0 141px;
+    margin-top: auto;
+
+    @media (max-width:$mobile){
+        padding: 64px 0 68px;
     }
 
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: $mobile) {
+            margin-bottom: 18px;
+        }
+
+    }
+
+    &__title {
+        margin-bottom: 32px;
+    }
+
+    &__contact {
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__social-row {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__description {
+        align-self: end;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        @media (max-width: $mobile) {
+            align-self: flex-start;
+        }
+    }
 }

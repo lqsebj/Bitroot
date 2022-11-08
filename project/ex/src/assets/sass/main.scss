@@ -1,7 +1,9 @@
 // Variables
-@import './variables/media';
 @import './variables/color';
+@import './variables/media';
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import './variables/fonts';
 
 // Global Style
 @import './global/resets.scss';

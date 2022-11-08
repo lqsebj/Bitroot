@@ -26,6 +26,15 @@
         padding-top:192px;
     }
 
+    &__info-a {
+        padding-left: 10px;
+    }
+
+    &__social-icons {
+        padding-right: 24.5px;
+        padding-top: 24.5px;
+    }
+
     &__info-h3{
         padding-bottom: 24px;
     }
@@ -71,8 +80,8 @@
         width: 19px;
         position: absolute;
         color: #FFFFFF;        
-        bottom: 9%;
-        left: 15%;
+        bottom: 10%;
+        left: 16%;
 
     }
 }
