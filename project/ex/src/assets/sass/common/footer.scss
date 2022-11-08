@@ -1,4 +1,12 @@
 footer {
     padding-top: 128px;
     background: #F4F4F4;
+    margin-top: 128px;
+    padding-bottom: 127px;
+
+    &__contaienr {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
