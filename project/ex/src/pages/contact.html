@@ -58,10 +58,10 @@
                         486 Rahi street, Berlin .98
                         Germany
                     </h4>
-                        <h4> <i class="fa fa-phone" aria-hidden="true"></i><a class="contact__info-a" href="">+48 601 366 816</a> 
+                        <h4> <i class="fa fa-phone" aria-hidden="true"></i><a class="contact__info-a" href=":tel">+48 601 366 816</a> 
                         </h4>
                         <h4>
-                        <i class="fa fa-envelope" aria-hidden="true"></i><a class="contact__info-a" href="">company@support.com</a>
+                        <i class="fa fa-envelope" aria-hidden="true"></i><a class="contact__info-a" href="mailto:">company@support.com</a>
                     </h4>
                 </div>
                 <div class="contact__social">
@@ -92,6 +92,7 @@
                     </h4>
                 </div>
                 <div class="contact__form">
+                    <form action="#" method="get" id="contactform">
                     <h5 class="contact__txt-h5">Name*</h5>
                     <input class="contact__input" type="text" placeholder="Walter Moss">
                     <h5 class="contact__txt-h5">Email*</h5>
@@ -100,8 +101,9 @@
                     <input class="contact__input" type="text">
                     <h5 class="contact__txt-h5">Message*</h5>
                     <input class="contact__input" type="text" placeholder="Hi there ...">
+                </form>
                 <div class="contact__btn-box">
-                    <button class="contact__btn btn">
+                    <button class="contact__btn btn" type="submit" form="contactform" value="submit"ç>
                         <h7>
                             Send 
                         </h7> 
