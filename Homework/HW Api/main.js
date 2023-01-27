@@ -35,5 +35,36 @@ function showButton() {
                 btnOut.append(btn)
             })
         })
-        .catch(err => console.log('Error: ', err);)
+        .catch(err => console.log('Error: ', err));
+}
+
+function showFirst() {
+    out.innerHTML = ``
+    fetch('https://rickandmortyapi.com/api/character?page=1')
+        .then(data => data.json())
+        .then(data => {
+            let arr = data.results;
+            createSelect(data.results)
+            arr.forEach((item) => {
+
+                let newPers = createItem(item);
+                out.innerHTML += newPers;
+            })
+        })
+        .catch(err => console.log('Error ', err))
+}
+
+function pages(num) {
+    out.innerHTML = ``
+    fetch('https://rickandmortyapi.com/api/character?page=${num}')
+        .then(data => data.json())
+        .then(data => {
+            let arr = data.results;
+            createSelect(data.results)
+            arr.forEach((item) => {
+                let newPers = createItem(item);
+                out.innerHTML += newPers;
+            })
+        })
+        .catch(err => console.log('Error ', err))
 }
