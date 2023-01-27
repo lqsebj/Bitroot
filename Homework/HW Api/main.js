@@ -68,3 +68,29 @@ function pages(num) {
         })
         .catch(err => console.log('Error ', err))
 }
+
+function createItem(item) {
+    return `
+    <div class="main__item">
+            <h2 class="main__title">${item.name}</h2>
+            <img class="main__img" src="${item.image}" alt="">
+            <p class="main__text">Стать: <b>${item.gender}</b></p>
+            <p class="main__text">Вид: <b>${item.species}</b></p>
+            <p class="main__text">Стан: <b>${item.status}</b></p>
+            <p class="main__text">Дата: <i>${item.created}</i></p>
+        </div>
+    `
+}
+
+function createSelect(selItem) {
+    let newArr = [];
+    selItem.map((item) =>{
+        newArr.push(item.species)
+    })
+
+    let newArr2 = new Set(newArr)
+
+    newArr2.forEach((item)=>{
+        select.innerHTML =+ `<option value ="${item}"> ${item} </option>`
+    })
+}
