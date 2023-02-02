@@ -1,20 +1,22 @@
 {
-  "name": "lesson_gulp",
+  "name": "gulp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0"
   },
   "dependencies": {
-    "-": "^0.0.1",
-    "npm": "^9.3.1"
+    "gulp-clean-css": "^4.3.0",
+    "gulp-images": "^0.0.3",
+    "gulp-mode": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.58.0"
   }
 }
