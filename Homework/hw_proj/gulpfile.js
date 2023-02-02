@@ -1,6 +1,7 @@
 const { src, dest, parallel, watch } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const images = require('gulp-images');
+// const changed = require('gulp-changed');
 
 var sourcemaps = require('gulp-sourcemaps');
 var minCss = require('gulp-clean-css');
@@ -9,9 +10,9 @@ var mode = require('gulp-mode')();
 
 
 function compileImages() {
-    return src('src/img/*')
+    return src('src/img/**')
         .pipe(images())
-        .pipe(dest('dist/images'));
+        .pipe(dest('dist/img'));
 }
 
 function style() {
