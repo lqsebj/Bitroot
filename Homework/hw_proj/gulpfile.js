@@ -1,6 +1,6 @@
 const { src, dest, parallel, watch } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const images = require('gulp-images'); 
+const images = require('gulp-images');
 
 var sourcemaps = require('gulp-sourcemaps');
 var minCss = require('gulp-clean-css');
@@ -9,9 +9,9 @@ var mode = require('gulp-mode')();
 
 
 function compileImages() {
-  return src('src/images/*')
-    .pipe(images())
-    .pipe(dest('dist/images'));
+    return src('src/img/*')
+        .pipe(images())
+        .pipe(dest('dist/images'));
 }
 
 function style() {
@@ -36,5 +36,5 @@ function watchAll() {
 // 2 Зробити функцю для Js файлів
 // 3 Зробити функцію очистки папки dist
 
-exports.dev = parallel(html, style, compileImages, watchAll)
+exports.default = parallel(html, style, compileImages, watchAll)
 exports.build = parallel(html, style)
